@@ -27,7 +27,6 @@ void PrintArray(int[] col)
         else
         {
             Console.Write(col[pos]);
-            break;
         }
     }
     Console.Write("]");
