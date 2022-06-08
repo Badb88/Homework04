@@ -8,10 +8,10 @@ int[] array = new int[8];
 
 void FillArray(int[] collection)
 {
-    Console.WriteLine("Введите 8 элементов, после каждого нажмите Enter: ");
+    //Console.WriteLine("Введите 8 элементов, после каждого нажмите Enter: ");
     for (int i = 0; i < collection.Length; i++)
     {
-        collection[i] = Convert.ToInt32(Console.ReadLine()); //new Random().Next(1,100);
+        collection[i] = new Random().Next(1,100); //Convert.ToInt32(Console.ReadLine());
     }
 }
 
